@@ -2,7 +2,7 @@ package Part2;
 
 import java.util.Scanner;
 
-public class Part2 {
+public class Part2_2 {
     public String inputString() throws Exception{
         String s;
         String pattern ="SE\\d{3}";
@@ -15,7 +15,7 @@ public class Part2 {
     }
     
     public static void main(String[] args){
-      Part2 obj = new Part2();
+      Part2_2 obj = new Part2_2();
         boolean cont = false;
       do{
         try{
